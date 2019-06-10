@@ -4,6 +4,6 @@
    --gray: #625C5C;
    --white: #E6E6E6;
    
-   --font-one:'Quicksand';
-   --font-two:'Permanent Marker';
+   --font-one:'Quicksand', 'sans serif';
+   --font-two:'Permanent Marker', cursive;
 }
