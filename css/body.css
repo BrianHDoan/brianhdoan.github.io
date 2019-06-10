@@ -1,0 +1,5 @@
+body {
+    background-image: url(../assets/rodion-kutsaev-69516-unsplash.jpg);
+    background-size: cover;
+    font-family: var(--font-two);
+}
