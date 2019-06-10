@@ -2,7 +2,7 @@
    --black: #110C0C;
    --lightgray: #988D8D;
    --gray: #625C5C;
-   --white: #E6E6E6;
+   --white: rgb(216, 186, 186);
    
    --font-one:'Quicksand', 'sans serif';
    --font-two:'Permanent Marker', cursive;

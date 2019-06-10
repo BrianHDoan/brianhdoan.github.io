@@ -1,0 +1,8 @@
+.jumbotron {
+    background: url(../assets/rodion-kutsaev-69516-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: var(--white);
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
