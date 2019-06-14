@@ -1,4 +1,19 @@
 #nav-content {
     margin-left: 75%;
-    color: var(--black);
+    color: var(--white);
+    font-family: var(--font-one);
+    font-weight: 900;
+}
+
+#navbar {
+    background-color: var(--white);
+}
+
+.navbar-brand {
+    font-family: var(--font-one)
+}
+
+.nav-pills > .active{
+    color: var(--white) !important;
+    background: var(--black) !important;
 }

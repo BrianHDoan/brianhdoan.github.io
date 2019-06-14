@@ -2,7 +2,20 @@
     background: url(../assets/rodion-kutsaev-69516-unsplash.jpg) no-repeat center;
     background-size: cover;
     color: var(--white);
-    text-align: center;
+    text-align: right;
     padding-top: 20%;
     padding-bottom: 25%;
 }
+
+.jumbotron h1{
+    letter-spacing: 0.5rem;
+    text-shadow: 5px 5px 5px var(--black);
+    font-size: 450%;
+}
+
+.jumbotron p{
+    letter-spacing: 0.3rem;
+    text-shadow: 2px 2px 2px var(--black);
+    font-size: 120%;
+}
+

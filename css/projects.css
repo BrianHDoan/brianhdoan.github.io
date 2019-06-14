@@ -1,4 +1,7 @@
 #projects {
     color: var(--white);
     margin: auto;
+    font-family: var(--font-one);
+    font-size: 150%;
+    font-weight: bolder;
 }
