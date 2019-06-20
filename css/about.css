@@ -21,6 +21,11 @@
     background-color: var(--white);
 }
 
+#about button{
+    margin-top: 10px;
+    margin-left: 35%; 
+}
+
 .media {
     font-family: var(--font-one);
     color: whitesmoke;
@@ -29,7 +34,8 @@
 }
 
 .media img{
-    width: 25vw;
-    height: 35vh;
+    width: 17vw;
+    height: 45vh;
     margin-right: 4% !important;
+    margin-top: -120px;
 }

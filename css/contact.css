@@ -3,11 +3,11 @@
 }
 
 #contact {
-    margin-top: 5%;
+    margin-top: 5%; 
     font-family: var(--font-one);
     padding-top: 1%;
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     background-color: var(--lightgray);
 }
 
@@ -16,12 +16,10 @@
     font-weight: bolder;
 }
 
-.contact-underline {
-    position: relative;
-    z-index: 1000;
-    color: var(--white);
-    height: 10px;
-    widows: 20px;
+#contact hr{
+    background-color: white;
+    width: 300px;
+    margin-bottom: 2%;
 }
 
 .row {
