@@ -8,11 +8,11 @@
     <!--BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--GOOGLE FONTS-->
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Quicksand" rel="stylesheet">
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<body data-spy="scroll" data-target="#navbar">
+<body data-spy="scroll" data-target="#navbar" data-offset='150'>
     <!-- NAVBAR-->
     <section id= "navbar">
         <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: var(--white)">
@@ -36,34 +36,76 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4" id="home">Brian Doan</h1>
-                <p class="lead">Software Developement</p>
+                <p class="lead">Web Developement</p>
             </div>
         </div>
     </section>
     
     <!--About-->
     <section id = "about">
+        <h1>About Me</h1>
+        <hr />
+        <div class="media">
+            <img src="./assets/rodion-kutsaev-69516-unsplash.jpg" class="align-self-center mr-3">
+            <div class="media-body">
+              <h5 class="mt-0"></h5>
+              <br>
+              <br>
+              <p>I'm currently attending the <b>Eleven Fifty Academy</b>.  I'm studying in their accelerated 12 week <b>Fullstack Javascript</b> course.
+                  I'm learning the ins and outs of <b>HTML, CSS,</b> and <b>Javascript</b> and how they work in tandum to create beautiful and responsive
+                  websites on the front-end.  I'll also be dealing with SQL for database, APIs for third-party integration, and Angular for frameworks.
+              </p>
+              <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            </div>
+          </div>
 
     </section>
     
     <!--Projects-->
     <section id = "projects">
+        <h1>Projects</h1>
+        <hr />
         <div class="container projectContainer">
             <div class="row">
                 <div class="col-4">
                     <p>CSS Creature</p>
+                    <div class="card" style="width: 18rem;">
+                        <a href="https://codepen.io/briandoan/pen/KLEPzO" target="_blank">
+                            <img src="./assets/cssCreature.png" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Here is a creation of a character strictly manipulating CSS.</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-4">
                     <p>Static Layout</p>
+                    <div class="card" style="width: 18rem;">
+                        <a href="https://brianhdoan.github.io/staticLayout/" target="_blank">
+                            <img src="./assets/staticScreenshot.png" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Here is a static recreation of the Hulu page with HTML, CSS, and Bootstrap</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-4">
                     <p>API Project</p>
+                    <div class="card" style="width: 18rem;">
+                        <a href="..." target="_blank">    
+                            <img src="./assets/openAqAPI.png" class="card-img-top">
+                            <div class="card-body">
+                              <p class="card-text">Here the Openaq API is being used to retrieve information through Javascript for that information to be displayed on an HTML page.</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     
     <!--Contact-->
+    <div class="contact-underline"></div>
     <section id="contact">
         <div class="container">
             <h2 class="text-center text-uppercase">Contact Me</h2>
@@ -122,6 +164,13 @@
                 </form>
             </div>
         </div>
+    </section>
+
+    <!--FOOTER-->
+    <section>
+        <footer>
+            <p>©2019 by Brian Doan. All Rights Reserved.</p>
+        </footer>
     </section>
         
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

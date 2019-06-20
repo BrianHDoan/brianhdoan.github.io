@@ -4,4 +4,29 @@
     font-family: var(--font-one);
     font-size: 150%;
     font-weight: bolder;
+    padding-top: 5%;
+}
+
+#projects h1{
+    text-align: center;
+}
+
+#projects hr{
+    background-color: var(--white);
+    width: 15%;
+    margin-bottom: 2%;
+}
+
+.projectContainer {
+    margin-top: 10px;
+}
+
+.card {
+    margin-left: 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.card-text {
+    font-size: 15px;
 }

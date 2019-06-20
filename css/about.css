@@ -1,0 +1,35 @@
+#about {
+    padding-top: 4%;
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--gray);
+    margin-bottom: 0;
+}
+#about h1{
+    font-family: var(--font-one);
+    font-size: 3em;
+    font-weight: bold;
+    color:  var(--white);
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+#about hr{
+    width: 20%;
+    background-color: var(--white);
+}
+
+.media {
+    font-family: var(--font-one);
+    color: whitesmoke;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+
+.media img{
+    width: 25vw;
+    height: 35vh;
+    margin-right: 4% !important;
+}
